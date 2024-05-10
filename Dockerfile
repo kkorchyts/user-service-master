@@ -1,4 +1,4 @@
-FROM openjdk:11-alpine
+FROM openjdk:17-alpine
 ENTRYPOINT ["/usr/bin/user-service.sh"]
 
 COPY user-service.sh /usr/bin/user-service.sh
